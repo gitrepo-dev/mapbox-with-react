@@ -4,7 +4,7 @@ import Directions from '@mapbox/mapbox-gl-directions/dist/mapbox-gl-directions';
 import './Map.css';
 import geoJson from './chicago-parks.json';
 
-mapboxgl.accessToken = process.env.REACT_APP_KEY
+mapboxgl.accessToken = 'pk.eyJ1IjoiamF5c2VhbjEwMDEiLCJhIjoiY2t3ZXlld2xtMDljYzJwbXViOTR2ZnJtMCJ9.IRBDhiDcLdcSCroBDzQ-TA'
 
 const Map = () => {
 
